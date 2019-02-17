@@ -1,0 +1,194 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.text-center,
+li {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+h6 {
+    padding: 10px 0;
+}
+
+header {
+    padding: 50px;
+}
+
+/* NAV STYLING */
+
+nav {
+    color: white;
+    background-color: black;
+}
+
+nav>span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand {
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.btn {
+    margin: 8px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.menu-btn:target .nav-content {
+    display: inherit;
+}
+
+.nav-content {
+    border-top: 2px solid gray;
+    display: none;
+}
+
+li {
+    border-bottom: 2px solid gray;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+main,
+.filter-wrapper {
+    width: 350px;
+    margin: auto;
+}
+
+.filter-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.filter {
+    padding: 20px;
+}
+
+/* SECTION ONE */
+
+#section-1 {
+    padding: 125px 0;
+}
+
+/* SECTION TWO - SKILLS */
+
+#section-2 {
+    background-color: #F8F8F8;
+    padding-bottom: 20px;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.icon {
+    font-size: 100px;
+}
+
+.icon-wrapper {
+    width: 100px;
+    margin: auto;
+}
+
+/* SECTION THREE - PROJECTS */
+
+#section-3 {
+    background-color: #F0F0F0;
+    padding-bottom: 20px;
+}
+
+main,
+.filter-wrapper {
+    width: 350px;
+    margin: auto;
+}
+
+.filter-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.filter {
+    padding: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-gap: 1em;
+}
+
+.project {
+    border: 5px solid black;
+    width: 325px;
+    height: 325px;
+    margin: auto;
+}
+
+/* SECTION FOUR - ABOUT */
+
+#section-4 {
+    background-color: #F8F8F8;
+    padding-bottom: 20px;
+}
+
+/* SECTION FIVE - CONTACT */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+
+input,
+textarea {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.message-area {
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.contact-grid span {
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+}
