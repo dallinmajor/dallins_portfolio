@@ -4,8 +4,8 @@ h3,
 h4,
 h5,
 h6,
-.text-center,
-li {
+.text-center
+ {
     width: 100%;
     text-align: center;
 }
@@ -37,12 +37,16 @@ header {
 
 nav {
     color: white;
-    background-color: black;
+    position: fixed;
+    width: 100%;
 }
 
 nav>span {
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    position: relative;
+    z-index: 99;
 }
 
 .brand {
@@ -54,7 +58,7 @@ nav>span {
 .btn {
     margin: 8px;
     background-color: yellow;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 6px;
     font-size: 18px;
 }
@@ -66,11 +70,22 @@ nav>span {
 .nav-content {
     border-top: 2px solid gray;
     display: none;
+    animation: menu 1s alternate;
+    background-color: black;
+}
+
+@keyframes menu {
+    0% {
+        transform: translateY(-155px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 li {
-    border-bottom: 2px solid gray;
-    padding: 8px;
+    padding: 10px;
+    margin-left: 15px;
     text-transform: uppercase;
 }
 
