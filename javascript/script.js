@@ -9,4 +9,4 @@ function handleMenuClick() {
         $('.nav-content').show();
         menuActive = true;
     }
-}
+};
